@@ -90,7 +90,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @return KBCircleStepView
  */
-+ (instancetype)kbCircleStepViewWithCircleStepViewModel:(KBCircleStepViewModel *)model Frame:(CGRect)frame;
++ (instancetype)kbCircleStepViewWithCircleStepViewModel:(KBCircleStepViewModel *)model frame:(CGRect)frame;
 
 NS_ASSUME_NONNULL_END
 @end

@@ -35,7 +35,7 @@
         model;
     });
     
-    self.stepView = [KBCircleStepView kbCircleStepViewWithCircleStepViewModel:model Frame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, 200)];
+    self.stepView = [KBCircleStepView kbCircleStepViewWithCircleStepViewModel:model frame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, 200)];
     self.stepView.backgroundColor = [UIColor colorWithRed:239.0f/255.0f green:238.0f/255.0f blue:238.0f/255.0f alpha:1];
     [self.view addSubview:self.stepView];
 }

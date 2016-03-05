@@ -24,7 +24,7 @@ static const CGFloat kbDefalutUnActiveContentFontSize = 15.0f;
 
 @implementation KBCircleStepView
 
-+ (instancetype)kbCircleStepViewWithCircleStepViewModel:(KBCircleStepViewModel *)model Frame:(CGRect)frame{
++ (instancetype)kbCircleStepViewWithCircleStepViewModel:(KBCircleStepViewModel *)model frame:(CGRect)frame{
     KBCircleStepView *view = [[self alloc] initWithFrame:frame];
     view.backgroundColor   = [UIColor whiteColor];
     view.viewModel         = model;
